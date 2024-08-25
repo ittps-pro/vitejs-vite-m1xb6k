@@ -40,7 +40,7 @@ function Form() {
     try {
       // Replace with your Bitrix24 API endpoint for creating a deal
       const response = await axios.post(
-        'https://your-bitrix24-domain.bitrix24.com/rest/1.0/crm.deal.add',
+        'https://your-bitrix24-domain.bitrix24.com/rest/1.0/crm.deal.list',
         formData,
         {
           headers: {
